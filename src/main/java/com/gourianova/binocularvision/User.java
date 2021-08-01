@@ -61,18 +61,13 @@ public class User{
     )
     private List<Role>  roles = new ArrayList<>();
 */
-    public User(int id, String login, String password,
-                //String firstName,
-                //String lastName,
-                int roleId) {
-        this.id = id;
-      //  this.firstName = firstName;
-      //  this.lastName = lastName;
+
+    public User( String login, String password, int roleId) {
+
         this.login = login;
         this.password = password;
         this.roleId = roleId;
     }
-
     public User() {
 
     }

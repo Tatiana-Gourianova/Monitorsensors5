@@ -31,7 +31,9 @@ public class Role{
 
     private String role;
  /*
-   TODO:&&&&
+   TODO:
+
+    &&&&
    @ManyToOne
     @JoinColumn(
             name = "role_id",
